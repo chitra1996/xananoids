@@ -4,14 +4,14 @@
     right: 0;
     top: 0;
     bottom: 0;
-    background-image: url('../images/gear.gif');
+    background-image: url('../images/gear.jpg');
     background-size: cover;
     z-index: 0;
     -webkit-filter: blur(10px);
     -moz-filter: blur(10px);
     -o-filter: blur(10px);
     -ms-filter: blur(10px);
-    filter: blur(15px);
+    filter: blur(7px);
 }
 
 /*inherited*/
@@ -66,12 +66,6 @@ a {
     border-color: rgba(204, 204, 204, 0) !important;
 }
 
-.btn-default {
-    color: rgb(4, 4, 4);
-    background-color: rgba(0, 0, 0, 0.53);
-    border-color: rgba(204, 204, 204, 0);
-}
-
 .btn {
     display: inline-block !important;
     padding: 12px 24px !important;
@@ -92,6 +86,8 @@ a {
     background-image: none !important;
     /* border: 1px solid transparent !important; */
     border-radius: 4px !important;
+    margin-left: 47%;
+    margin-top: 5%;
 }
 
 .btn:hover {
@@ -99,8 +95,8 @@ a {
     background-color: rgba(0, 0, 0, 0.87) !important;
 }
 .signup {
-	margin-top: 13% !important;
-	margin-left: 69% !important;
+	margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 .form-control {
@@ -129,23 +125,11 @@ table {
     color: #000 !important
 }
 
-.signin {
-    display: block !important;
-    margin-top: 5% !important;
-    margin-left: 8% !important;
-}
-
 #bye {
     font-size: 30px;
     color: #000;
     text-align: center;
     font-style: italic;
-}
-
-.datas {
-    display: block !important;
-    margin-top: 23% !important;
-    margin-left: 12% !important;
 }
 
 .heads {
@@ -155,4 +139,15 @@ table {
     font-family: 'Montserrat', sans-serif;
     text-align: center;    
     padding: 2px 0px;
+}.
+
+label {
+  display: inline-block;
+  max-width: 100%; // Force IE8 to wrap long content (see https://github.com/twbs/bootstrap/issues/13141)
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-body {
+    font-family: 'Open Sans', sans-serif !important;
 }
