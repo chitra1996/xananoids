@@ -93,7 +93,7 @@ a {
 
 .btn-default {
     color: #000 !important;
-    background-color: rgba(0, 0, 0, 0.53) !important;
+    background-color: rgba(0, 0, 0, 0) !important;
     border-color: rgba(204, 204, 204, 0) !important;
 }
 
@@ -167,13 +167,8 @@ table {
     z-index: 10 !important;
     filter: blur(0px) !important;
     font-size: 40px;
-    font-family: 'Belleza', serif;
     text-align: center;    
     padding: 2px 0px;
-}
-
-.img-responsive {file:///C:/xampp/htdocs/xananoids/index.html#
-    max-width: 130% !important;
 }
 
 label {
