@@ -21,6 +21,8 @@
   		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans+Condensed:300" rel="stylesheet">
+  		<link href="https://fonts.googleapis.com/css?family=Belleza|Ubuntu" rel="stylesheet">
+
 	</head>
 
 	<body>
@@ -54,62 +56,67 @@
 
 		<div class="form-body">
 			<form class = "form-horizontal col-md-12 col-sm-12" role = "form">
+			<!--for giving extra spce-->
+				<div class="col-md-3 col-sm-3"></div>
 
-				<div class = "form-group col-sm-12 col-md-12">
-			      	<label class="col-sm-2 col-md-2">Student Name</label>				
-			      	<div class = "col-sm-6 col-md-6">
-			         	<input type="text" class="form-control" placeholder="Student name">
-			      	</div>
-			   	</div>
+				<div class="col-sm-9 col-sm-9">
 
-				<div class = "form-group col-sm-12 col-md-12">
-			      	<label class="col-sm-2 col-md-2">Item Name</label>				
-			      	<div class = "col-sm-6 col-md-6">
-			         	<input type="text" class="form-control" placeholder="Item name">
-			      	</div>
-			   	</div>
+					<div class = "form-group col-sm-12 col-md-12">
+				      	<label class="col-sm-2 col-md-2">Student Name</label>				
+				      	<div class = "col-sm-6 col-md-6">
+				         	<input type="text" class="form-control" placeholder="Student name">
+				      	</div>
+				   	</div>
 
-			   	<div class="form-group col-sm-2 col-md-2">
-			   		<label class="col-sm-2 col-md-2 control-label">Purpose</label>	
-			   	</div>
-			   	<div class="col-sm-8 col-md-8" style="margin-bottom: 20px;">	
-			   		<div class="radio">
-					  	<label>
-					    	<input type="radio" name="blankRadio" id="blankRadio1" value="option1">Issue
-					  	</label>
+					<div class = "form-group col-sm-12 col-md-12">
+				      	<label class="col-sm-2 col-md-2">Item Name</label>				
+				      	<div class = "col-sm-6 col-md-6">
+				         	<input type="text" class="form-control" placeholder="Item name">
+				      	</div>
+				   	</div>
+
+				   	<div class="form-group col-sm-2 col-md-2">
+				   		<label class="col-sm-2 col-md-2 control-label">Purpose</label>	
+				   	</div>
+				   	<div class="col-sm-8 col-md-8" style="margin-bottom: 20px;">	
+				   		<div class="radio">
+						  	<label>
+						    	<input type="radio" name="blankRadio" id="blankRadio1" value="option1">Issue
+						  	</label>
+						</div>
+
+						<div class="radio">
+						  	<label>
+						    	<input type="radio" name="blankRadio" id="blankRadio2" value="option2">Deposit
+						  	</label>
+						</div>
+
+						<div class="radio">
+						  	<label>
+						    	<input type="radio" name="blankRadio" id="blankRadio3" value="option3">Add
+						  	</label>
+						</div>
 					</div>
 
-					<div class="radio">
-					  	<label>
-					    	<input type="radio" name="blankRadio" id="blankRadio2" value="option2">Deposit
-					  	</label>
-					</div>
+					<div class = "form-group col-sm-12 col-md-12">
+				      	<label class="col-sm-2 col-md-2">Quantity</label>				
+				      	<div class = "col-sm-6 col-md-6">
+				         	<input type="text" class="form-control" placeholder="Quantity">
+				      	</div>
+				   	</div>
 
-					<div class="radio">
-					  	<label>
-					    	<input type="radio" name="blankRadio" id="blankRadio3" value="option3">Add
-					  	</label>
-					</div>
+				   	<div class = "form-group col-sm-12 col-md-12">
+				      	<label class="col-sm-2 col-md-2">Date</label>				
+				      	<div class = "col-sm-6 col-md-6">
+				         	<input type="text"  class="form-control" placeholder="DD/MM/YYYY" id="datepicker">
+				      	</div>
+				   	</div>
 				</div>
-
-				<div class = "form-group col-sm-12 col-md-12">
-			      	<label class="col-sm-2 col-md-2">Quantity</label>				
-			      	<div class = "col-sm-6 col-md-6">
-			         	<input type="text" class="form-control" placeholder="Quantity">
-			      	</div>
-			   	</div>
-
-			   	<div class = "form-group col-sm-12 col-md-12">
-			      	<label class="col-sm-2 col-md-2">Date</label>				
-			      	<div class = "col-sm-6 col-md-6">
-			         	<input type="text"  class="form-control" placeholder="DD/MM/YYYY" id="datepicker">
-			      	</div>
-			   	</div>
 
 			   	<div class = "form-group">
 			        <button type = "submit" class = "btn btn-default">Update data</button>
 			   	</div>	
-
+				
 			</form>
 		</div>
 	</body>
