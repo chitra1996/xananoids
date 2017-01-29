@@ -25,6 +25,25 @@
 	height: 100px;
 }
 
+.navbar-collapse.in a {
+    color: #080808 !important;
+    cursor: pointer;
+}
+
+.control-label {
+    text-align: justify !important;
+}
+
+.control-labels {
+    text-align: justify !important;
+}
+
+.navbar-collapse.in {
+    margin-top: 7% !important;
+    float: right !important;
+    z-index: 20;
+}
+
 .heading #logo {
     margin-top: 8%;
 	margin-left: 15%;
@@ -151,7 +170,11 @@ table {
     font-family: 'Belleza', serif;
     text-align: center;    
     padding: 2px 0px;
-}.
+}
+
+.img-responsive {file:///C:/xampp/htdocs/xananoids/index.html#
+    max-width: 130% !important;
+}
 
 label {
   display: inline-block;
